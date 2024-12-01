@@ -1,0 +1,19 @@
+body: Container(
+        height: 100.0,
+        width: double.maxFinite,
+        //margin: EdgeInsets.all(5.0),
+          //padding: EdgeInsets.symmetric(vertical: 35.0 , horizontal: 120.0),
+          //padding: EdgeInsets.only(top: 30.0 , bottom: 20.0 , left: 100.0),
+        transform: Matrix4.rotationZ(0.1),
+        color: Colors.indigo,
+        child: Text('Current leader',
+            style: TextStyle(
+            fontSize: 20.0,
+              color: Colors.pink
+        ),
+        )
+      ),
+    );
+
+  }
+}
